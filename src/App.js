@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './Header.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           </Route>
           <Route
             path="/"
-            element={<h1>Home Page!!</h1>}>
+            element={<Header/>}>
           </Route>
         </Routes>
       </div>
