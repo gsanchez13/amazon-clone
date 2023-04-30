@@ -7,6 +7,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 function Header() {
   return (
     <nav className="header">
+      <div className="header__container">
       <Link to="/" >
         <img className="header__logo"
           src="/amazonlogo3.png"
@@ -43,10 +44,9 @@ function Header() {
           </div>
         </Link>
       </div>
-      <br/>
-      <br/>
+      </div>
       <div className="header__menuBar">
-        <h1>hi</h1>
+        <h1> enter amazon links here</h1>
       </div>
     </nav>
   )

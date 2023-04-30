@@ -1,10 +1,13 @@
 .header {
     background-color: #131921;
-    display: flex;
-    align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
 }
 
 .header__logo {
@@ -61,8 +64,9 @@
 }
 
 .header__menuBar {
-    color: #232F3E;
-    white-space: pre-wrap;
+    background-color: #232F3E;
+    color: white;
+    width: 100%;
 }
 
 .header__optionBasket {
