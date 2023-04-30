@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header.js';
+import Home from './Home.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -10,7 +11,11 @@ function App() {
         <Routes>
           <Route
             path="/checkout"
-            element={<h1>Checkout Page</h1>}>
+            element={<>
+              <Header />
+              <h1>Checkout Page</h1>
+            </>}
+          >
           </Route>
           <Route
             path="/login"
@@ -18,7 +23,11 @@ function App() {
           </Route>
           <Route
             path="/"
-            element={<Header/>}>
+            element={
+            <>
+            <Header />
+            <Home/>
+            </>}>
           </Route>
         </Routes>
       </div>

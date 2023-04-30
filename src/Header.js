@@ -43,6 +43,11 @@ function Header() {
           </div>
         </Link>
       </div>
+      <br/>
+      <br/>
+      <div className="header__menuBar">
+        <h1>hi</h1>
+      </div>
     </nav>
   )
 }
