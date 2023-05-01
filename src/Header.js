@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MenuIcon from '@material-ui/icons/Menu';
 
 function Header() {
@@ -40,7 +40,7 @@ function Header() {
           </Link>
           <Link to="/checkout" className="header__link">
             <div className="header__optionBasket">
-              <ShoppingBasketIcon />
+              <ShoppingCartOutlinedIcon />
               <span className="header__optionLineTwo header__basketCount">0</span>
             </div>
           </Link>
@@ -64,4 +64,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

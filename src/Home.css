@@ -1,4 +1,8 @@
-.home {}
+.home {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .home__image {
     width: 100%;
