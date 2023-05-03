@@ -14,9 +14,9 @@ function Home() {
       <Product
         id="12345"
         title="All The Light We Cannot See"
-        link="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FAll-Light-We-Cannot-See%2Fdp%2F1501173219&psig=AOvVaw3hLybik3tH_w5rGVBuIQu9&ust=1683048869681000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjir-LT1P4CFQAAAAAdAAAAABAE"
+        image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
         price="15.99"
-        rating="5"
+        rating={5}
       />
     </div>
   )
