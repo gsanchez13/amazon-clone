@@ -53,13 +53,13 @@ function Home() {
         </div>
       </div>
 
-      <div className="home__row">
+      <div className="home__secondRow">
         <Product
           id="12345"
           className="product"
           title="Samsung 50 inch"
           image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=640;maxWidth=550"
-          price="15.99"
+          price="379.99"
           rating={5}
         />
       </div>
