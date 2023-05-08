@@ -44,6 +44,10 @@ function Home() {
           price="379.99"
           rating={5}
         />
+        <Product
+        />
+        <Product
+        />
       </div>
     </div>
   )
