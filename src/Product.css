@@ -7,6 +7,7 @@
     padding: 10px;
     max-height: 400px;
     min-width: 100px;
+    width: 350px;
     background-color: white;
     z-index: 1;
 }
@@ -25,15 +26,14 @@
 }
 
 .product__stackedRow>img {
-    max-height: 50px;
+    max-height: 34px;
     max-width: 100px;
     object-fit: contain;
     margin-bottom: 5px;
 }
 
 .product__info {
-    padding: 5px;
-    max-width: 80%;
+    max-width: 95%;
 }
 
 .product__rating {
@@ -45,6 +45,18 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    align-self: center;
+}
+
+.product>p {
+    align-self: flex-start;
+    width: 70%;
+}
+
+.product>h3 {
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .product__price {

@@ -1,9 +1,11 @@
 import React from 'react';
 import './Product.css';
 
-function Product({ id, className, title, image, price, rating }) {
+function Product({ id, className, category, title, image, price, rating }) {
     return (
         <div className={className}>
+            <h3>{category}</h3>
+            <img src={image} alt="product" />
             <p className="product__info">{title}</p>
             <p className="product__price">
                 <small>$</small>
@@ -12,14 +14,13 @@ function Product({ id, className, title, image, price, rating }) {
             <div className="product__rating">
                 {
                     Array(rating)
-                    .fill()
-                    .map((_) => (
-                        <p>⭐️</p>
-                    ))
+                        .fill()
+                        .map((_) => (
+                            <p>⭐️</p>
+                        ))
                 }
             </div>
-                <img src={image} alt="product"/>
-                <button>Add to Basket</button>
+            <button>Add to Basket</button>
         </div>
     )
 }

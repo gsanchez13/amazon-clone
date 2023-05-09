@@ -12,15 +12,37 @@ function Home() {
       />
       <div className="home__row">
         <Product
+          id="12345"
+          className="product"
+          category="Pick up where you left off"
+          title="All The Light We Cannot See - Anthony Doerr"
+          image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+          price="15.99"
+          rating={5}
         />
         <Product
+          id="12345"
+          className="product"
+          category="Keep shopping for"
+          title="Miracle Grow Moisture Control Soil"
+          image="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
+          price="5.67"
+          rating={5}
         />
         <Product
+          id="12345"
+          className="product"
+          category="Buy Again"
+          title="Amazon Basics Unscented Dog Poop Bags"
+          image="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
+          price="18.31"
+          rating={4}
         />
         <div className="home__stackedRow">
           <Product
             id="12345"
             className="product__stackedRow"
+            category="Shop Groceries and More"
             image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
             price="15.99"
             rating={5}
@@ -43,10 +65,6 @@ function Home() {
           image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=640;maxWidth=550"
           price="379.99"
           rating={5}
-        />
-        <Product
-        />
-        <Product
         />
       </div>
     </div>
