@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Product from './Product.js';
+import Product from './Products/Product.js';
+import StackedProduct from './Products/StackedProduct';
 
 function Home() {
   return (
@@ -39,18 +40,15 @@ function Home() {
           rating={4}
         />
         <div className="home__stackedRow">
-          <Product
+          <StackedProduct
             id="12345"
-            className="product__stackedRow"
-            category="Shop Groceries and More"
-            image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
-            price="15.99"
-            rating={5}
+            category="stackedProduct_top"
+            image="https://images-na.ssl-images-amazon.com/images/G/01/dex/2022/Speed/March/030822_DEX_Speed_AdToppers_MothersDay2_2x._CB626696217_.jpg"
           />
-          <Product
+          <StackedProduct
             id="12345"
-            className="product__stackedRow"
-            image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+            className="stackedProduct_bottom"
+            image="https://www.amazon.com/dp/B089B6CPJS?aaxitk=4c7b17846ee5c76514c40e1ba40ab329&pd_rd_plhdr=t&ref=dacx_dp_586103675645598861_585113923207267201"
             price="15.99"
             rating={5}
           />

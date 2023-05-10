@@ -4,7 +4,7 @@ import './Product.css';
 function Product({ id, className, category, title, image, price, rating }) {
     return (
         <div className={className}>
-            <h3>{category}</h3>
+            <h3 className="product__category">{category}</h3>
             <img src={image} alt="product" />
             <p className="product__info">{title}</p>
             <p className="product__price">
