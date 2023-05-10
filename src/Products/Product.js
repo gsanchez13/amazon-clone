@@ -1,26 +1,14 @@
 import React from 'react';
 import './Product.css';
+import { Link } from 'react-router-dom';
 
-function Product({ id, className, category, title, image, price, rating }) {
+function Product({ id, category, title, image, price, rating }) {
     return (
-        <div className={className}>
-            <h3 className="product__category">{category}</h3>
-            <img src={image} alt="product" />
-            <p className="product__info">{title}</p>
-            <p className="product__price">
-                <small>$</small>
-                <strong>{price}</strong>
-            </p>
-            <div className="product__rating">
-                {
-                    Array(rating)
-                        .fill()
-                        .map((_) => (
-                            <p>⭐️</p>
-                        ))
-                }
-            </div>
-            <button>Add to Basket</button>
+        <div className="product">
+            <Link to="/" className="product__link">
+                <img src={image} alt={title} className="product__image"/>
+                <p className="product__info">{title}</p>
+            </Link>
         </div>
     )
 }

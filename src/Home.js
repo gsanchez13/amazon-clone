@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Product from './Products/Product.js';
+import ProductCard from './Products/ProductCard';
 import StackedProduct from './Products/StackedProduct';
 
 function Home() {
@@ -12,32 +13,14 @@ function Home() {
         alt=""
       />
       <div className="home__row">
-        <Product
-          id="12345"
-          className="product"
+        <ProductCard
           category="Pick up where you left off"
-          title="All The Light We Cannot See - Anthony Doerr"
-          image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
-          price="15.99"
-          rating={5}
         />
-        <Product
-          id="12345"
-          className="product"
+        <ProductCard
           category="Keep shopping for"
-          title="Miracle Grow Moisture Control Soil"
-          image="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
-          price="5.67"
-          rating={5}
         />
-        <Product
-          id="12345"
-          className="product"
+        <ProductCard
           category="Buy Again"
-          title="Amazon Basics Unscented Dog Poop Bags"
-          image="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
-          price="18.31"
-          rating={4}
         />
         <div className="home__stackedRow">
           <StackedProduct
@@ -47,7 +30,7 @@ function Home() {
           />
           <StackedProduct
             id="12345"
-            className="stackedProduct_bottom"
+            category="stackedProduct_bottom"
             image="https://www.amazon.com/dp/B089B6CPJS?aaxitk=4c7b17846ee5c76514c40e1ba40ab329&pd_rd_plhdr=t&ref=dacx_dp_586103675645598861_585113923207267201"
             price="15.99"
             rating={5}
@@ -56,7 +39,7 @@ function Home() {
       </div>
 
       <div className="home__secondRow">
-        <Product
+        <ProductCard
           id="12345"
           className="product"
           title="Samsung 50 inch"
@@ -70,3 +53,28 @@ function Home() {
 }
 
 export default Home;
+
+{/* <Product
+id="12345"
+category="Pick up where you left off"
+title="All The Light We Cannot See - Anthony Doerr"
+image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+price="15.99"
+rating={5}
+/>
+<Product
+id="12345"
+category="Keep shopping for"
+title="Miracle Grow Moisture Control Soil"
+image="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
+price="5.67"
+rating={5}
+/>
+<Product
+id="12345"
+category="Buy Again"
+title="Amazon Basics Unscented Dog Poop Bags"
+image="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
+price="18.31"
+rating={4}
+/> */}

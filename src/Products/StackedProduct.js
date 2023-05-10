@@ -28,6 +28,7 @@ function StackedProduct({ id, category, image, title, price, rating }) {
                         ))
                 }
             </div>
+            <button>Shop Now</button>
             </div>
         )
     }
