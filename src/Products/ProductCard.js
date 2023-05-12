@@ -2,27 +2,26 @@ import React from 'react'
 import Product from './Product';
 import './ProductCard.css';
 
-function ProductCard({ category, image, title }) {
+function ProductCard({ category, image1, title1, image2, title2 , image3, title3 }) {
     return (
         <div className="productCard">
             <h3 className="productCard__category">{category}</h3>
             <div className="productCard__box">
                 <Product
-                    image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
-                    title="All The Light We Cannot See - Anthony Doerr"
+                    image={image1}
+                    title={title1}
                 />
                 <Product
-                    image="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
-                    title="Miracle Grow Moisture Control Soil"
+                    image={image2}
+                    title={title2}
                 />
                 <Product
-                    image="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
-                    title="Amazon Basics Unscented Dog Poop Bags"
-
+                    image={image3}
+                    title={title3}
                 />
                 <Product
-                    image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
-                    title="Amazon Basics Unscented Dog Poop Bags"
+                    image={image3}
+                    title={title3}
                 />
             </div>
         </div>

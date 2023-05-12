@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import Product from './Products/Product.js';
 import ProductCard from './Products/ProductCard';
 import StackedProduct from './Products/StackedProduct';
 
@@ -15,12 +14,30 @@ function Home() {
       <div className="home__row">
         <ProductCard
           category="Pick up where you left off"
+          image1="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+          title1="All The Light We Cannot See - Anthony Doerr"
+          image2="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
+          title2="Miracle Grow Moisture Control Soil"
+          image3="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
+          title3="Amazon Basics Unscented Dog Poop Bags"
         />
         <ProductCard
           category="Keep shopping for"
+          image1="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+          title1="All The Light We Cannot See - Anthony Doerr"
+          image2="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
+          title2="Miracle Grow Moisture Control Soil"
+          image3="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
+          title3="Amazon Basics Unscented Dog Poop Bags"
         />
         <ProductCard
           category="Buy Again"
+          image1="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
+          title1="All The Light We Cannot See - Anthony Doerr"
+          image2="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
+          title2="Miracle Grow Moisture Control Soil"
+          image3="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
+          title3="Amazon Basics Unscented Dog Poop Bags"
         />
         <div className="home__stackedRow">
           <StackedProduct
@@ -53,28 +70,3 @@ function Home() {
 }
 
 export default Home;
-
-{/* <Product
-id="12345"
-category="Pick up where you left off"
-title="All The Light We Cannot See - Anthony Doerr"
-image="https://m.media-amazon.com/images/P/1501173219.01._SCLZZZZZZZ_SX500_.jpg"
-price="15.99"
-rating={5}
-/>
-<Product
-id="12345"
-category="Keep shopping for"
-title="Miracle Grow Moisture Control Soil"
-image="https://m.media-amazon.com/images/I/71AE-afEZfL._AC_SL1500_.jpg"
-price="5.67"
-rating={5}
-/>
-<Product
-id="12345"
-category="Buy Again"
-title="Amazon Basics Unscented Dog Poop Bags"
-image="https://m.media-amazon.com/images/I/61ENFFolX3L._AC_SL1322_.jpg"
-price="18.31"
-rating={4}
-/> */}
