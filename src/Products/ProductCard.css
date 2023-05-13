@@ -9,6 +9,20 @@
     background-color: white;
     z-index: 1;
 }
+.productCard__single {
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 30% !important;
+    width: 84% ;
+    background-color: white;
+    z-index: 1;
+}
+.productCard__singleBox {
+    min-width: 60%;
+}
 
 .productCard__box {
     display: flex;

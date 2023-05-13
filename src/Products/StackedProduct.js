@@ -2,8 +2,8 @@ import React from 'react';
 import './StackedProduct.css';
 import { Link } from 'react-router-dom'
 
-function StackedProduct({ id, category, image, title, price, rating }) {
-    if (category === "stackedProduct_top") {
+function StackedProduct({ className, image, title, rating }) {
+    if (className === "stackedProduct_top") {
         return (
             <div className="stackedProduct__top">
                 <div className="stackedProduct__info">
