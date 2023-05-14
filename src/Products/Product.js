@@ -2,13 +2,12 @@ import React from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom';
 
-function Product({ title, image, className}) {
+function Product({ title, image, className }) {
     if (className === "product__single") {
         return (
             <div className="product__single">
                 <Link to="/" className="product__link">
                     <img src={image} alt={title} className="product__singleImage" />
-                    {/* <p className="product__info">{title}</p> */}
                 </Link>
             </div>
         )

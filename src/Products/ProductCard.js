@@ -16,7 +16,7 @@ function ProductCard({ count, category, image, title, image1, title1, image2, ti
             </div>
         )
     }
-    else if(count === 4){
+    else if (count === 4) {
         return (
             <div className="productCard">
                 <h3 className="productCard__category">{category}</h3>

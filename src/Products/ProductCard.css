@@ -3,19 +3,21 @@
     margin-top: 10px;
     padding: 10px;
     min-height: 50%;
-    width: 23% !important;
+    width: 25% !important;
     background-color: white;
     z-index: 1;
 }
+
 .productCard__single {
     align-items: start;
     margin-top: 10px;
     padding: 10px;
     min-height: 30% !important;
-    width: 84% ;
+    width: 101%;
     background-color: white;
     z-index: 1;
 }
+
 .productCard__singleBox {
     min-width: 60%;
 }

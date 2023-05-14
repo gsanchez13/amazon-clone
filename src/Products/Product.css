@@ -8,9 +8,7 @@
 }
 
 .product__singleImage {
-    height: 200px;
-    width: 300px;
-    object-fit:fill;
+    object-fit: fill;
     align-self: center;
 }
 
@@ -30,7 +28,7 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
 }
 
 .product__multipleImages {
