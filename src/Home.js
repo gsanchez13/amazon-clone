@@ -59,12 +59,22 @@ function Home() {
       <div className="home__secondRow">
         <ProductCard
           count={1}
+          className="productCard__single"
           title="Samsung 50 inch"
           image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=640;maxWidth=550"
           price="379.99"
           rating={5}
         />
       </div>
+      <ProductCard
+          count={1}
+          category="Continue Watching"
+          className="productCard__singleAd"
+          title="The Boys"
+          image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=640;maxWidth=550"
+          price="379.99"
+          rating={5}
+        />
     </div>
   )
 }
