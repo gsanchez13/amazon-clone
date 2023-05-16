@@ -13,13 +13,26 @@
     margin-top: 10px;
     padding: 10px;
     min-height: 30% !important;
-    width: 101%;
+    width: 100%;
     background-color: white;
     z-index: 1;
 }
 
 .productCard__singleBox {
-    min-width: 60%;
+    max-width: 60%;
+}
+
+.productCard__singleAd {
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 30% !important;
+    background-color: white;
+    z-index: 1;
+}
+
+.productCard__singleBoxAd{
+    min-width: 30%;
+
 }
 
 .productCard__box {
