@@ -78,6 +78,14 @@ function Home() {
           price="379.99"
           rating={5}
         />
+        <ProductCard
+          category="Continue Watching"
+          className="productCard__singleAd"
+          title="The Boys"
+          image="https://m.media-amazon.com/images/I/81J3JEwri3L._RI_AC_SL1584_.jpg"
+          price="379.99"
+          rating={5}
+        />
       </div>
     </div>
   )

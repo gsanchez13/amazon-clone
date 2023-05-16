@@ -4,12 +4,11 @@
     align-items: center;
     overflow-y: visible;
     height: 300px;
-    width: 300px;
+    width: 40%;
 }
 
 .product__singleImage {
-    object-fit: contain;
-    align-self: center;
+    width: 100%;
 }
 
 .product__singleAd {

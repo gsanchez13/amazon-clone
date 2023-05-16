@@ -1,9 +1,9 @@
 .productCard {
     align-items: start;
-    margin-top: 10px;
+    margin: 10px 5px 0px 25px;
     padding: 10px;
     min-height: 50%;
-    width: 25% !important;
+    width: 40% !important;
     background-color: white;
     z-index: 1;
 }
@@ -13,7 +13,7 @@
     margin-top: 10px;
     padding: 10px;
     min-height: 30% !important;
-    width: 100%;
+    width: 50%;
     background-color: white;
     z-index: 1;
 }
@@ -23,16 +23,16 @@
 }
 
 .productCard__singleAd {
-    margin-top: 10px;
+    margin: 10px 5px 0px 25px;
     padding: 10px;
     min-height: 30% !important;
+    width: 23% !important;
     background-color: white;
     z-index: 1;
 }
 
 .productCard__singleBoxAd{
     min-width: 30%;
-
 }
 
 .productCard__box {
