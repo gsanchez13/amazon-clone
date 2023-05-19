@@ -32,7 +32,7 @@ function ProductCard({ category, className, image, title, image1, title1, image2
             return (
                 <div className="productCard">
                     <h3 className="productCard__category">{category}</h3>
-                    <div className="productCard__box">
+                    <div className="productCard__multiple">
                         <Product
                             className="product__multiple"
                             image={image1}

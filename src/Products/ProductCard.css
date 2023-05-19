@@ -1,7 +1,7 @@
 .productCard {
     align-items: start;
-    margin: 10px 5px 0px 25px;
-    padding: 10px;
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
     min-height: 50%;
     width: 40% !important;
     background-color: white;
@@ -10,8 +10,8 @@
 
 .productCard__single {
     align-items: start;
-    margin-top: 10px;
-    padding: 10px;
+    margin: 2% 1% 0px 25px;
+    padding: 1%;
     min-height: 30% !important;
     width: 50%;
     background-color: white;
@@ -23,8 +23,8 @@
 }
 
 .productCard__singleAd {
-    margin: 10px 5px 0px 25px;
-    padding: 10px;
+    margin: 2% 1% 0px 25px;
+    padding: 1%;
     min-height: 30% !important;
     width: 23% !important;
     background-color: white;
@@ -35,7 +35,7 @@
     min-width: 30%;
 }
 
-.productCard__box {
+.productCard__multiple {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,6 +43,6 @@
 
 .productCard__category {
     align-self: flex-start;
-    margin-left: 10px;
+    margin-left: 2%;
     margin-bottom: 5px;
 }

@@ -1,5 +1,5 @@
 .home {
-    max-width: 100%;
+    width: 100%;
     margin-right: auto;
 }
 
@@ -12,27 +12,27 @@
 
 .home__row {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .home__stackedRow {
     display: flex;
     flex-direction: column;
     z-index: 1;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-top: 1%;
 }
 
 .home__secondRow {
     display: flex;
     flex-direction: row;
+    margin: ;
     margin-left: 5px;
     margin-right: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

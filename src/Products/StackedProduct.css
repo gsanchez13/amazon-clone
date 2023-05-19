@@ -3,9 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 10px 5px 0px 25px;
-    padding: 10px;
-    height: 40%;
+    padding: 1%;
+    margin: 2% 1% 0px 1%;
+    height: 35%;
     width: 90%;
     background-color: white;
     z-index: 1;
@@ -16,8 +16,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px 5px 0px 25px;
-    padding: 10px;
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
     height: 60%;
     width: 90%;
     background-color: white;
