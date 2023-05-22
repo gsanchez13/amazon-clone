@@ -3,12 +3,11 @@
     flex-direction: column;
     align-items: center;
     overflow-y: visible;
-    height: 300px;
-    width: 40%;
+    object-fit:fill;
 }
 
 .product__singleImage {
-    width: 500px;
+    width: 100%;
 }
 
 .product__singleAd {
@@ -16,6 +15,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .product__multiple {
     display: flex;
     flex-direction: column;
