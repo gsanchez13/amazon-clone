@@ -1,0 +1,48 @@
+.productCard {
+    align-items: start;
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
+    min-height: 50%;
+    width: 40% !important;
+    background-color: white;
+    z-index: 1;
+}
+
+.productCard__single {
+    align-items: start;
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
+    min-height: 30% !important;
+    width: 56.5%;
+    background-color: white;
+    z-index: 1;
+}
+
+.productCard__singleBox {
+    max-width: 60%;
+}
+
+.productCard__singleAd {
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
+    min-height: 30% !important;
+    width: 25% !important;
+    background-color: white;
+    z-index: 1;
+}
+
+.productCard__singleBoxAd{
+    min-width: 30%;
+}
+
+.productCard__multiple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productCard__category {
+    align-self: flex-start;
+    margin-left: 2%;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,44 @@
+.product__single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: visible;
+    object-fit:fill;
+}
+
+.product__singleImage {
+    width: 100%;
+}
+
+.product__singleAd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__multiple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.product__link {
+    text-decoration: none;
+    color: black
+}
+
+.product__info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.product__multipleImages {
+    height: 130px;
+    width: 60%;
+    object-fit: contain;
+    align-self: center;
+}
