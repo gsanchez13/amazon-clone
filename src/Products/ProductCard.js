@@ -16,9 +16,21 @@ function ProductCard({ category, className, image, title, image1, title1, image2
                     </div>
                 </div>
             )
-        case "productCard__singleAd":
+        case "productCard__singleAd1":
             return (
-                <div className="productCard__singleAd">
+                <div className="productCard__singleAd1">
+                    <div className="productCard__singleBoxAd">
+                        <Product
+                            className="product__singleAd"
+                            image={image}
+                            title={title}
+                        />
+                    </div>
+                </div>
+            )
+        case "productCard__singleAd2":
+            return (
+                <div className="productCard__singleAd2">
                     <div className="productCard__singleBoxAd">
                         <Product
                             className="product__singleAd"

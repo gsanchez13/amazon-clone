@@ -72,7 +72,7 @@ function Home() {
         />
         <ProductCard
           category="Continue Watching"
-          className="productCard__singleAd"
+          className="productCard__singleAd1"
           title="The Boys"
           image="https://m.media-amazon.com/images/I/81J3JEwri3L._RI_AC_SL1584_.jpg"
           price="379.99"
@@ -80,7 +80,7 @@ function Home() {
         />
         <ProductCard
           category="Continue Watching"
-          className="productCard__singleAd"
+          className="productCard__singleAd2"
           title="The Boys"
           image="https://m.media-amazon.com/images/I/81J3JEwri3L._RI_AC_SL1584_.jpg"
           price="379.99"
