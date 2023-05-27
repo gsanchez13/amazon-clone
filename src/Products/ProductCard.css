@@ -8,6 +8,10 @@
     z-index: 1;
 }
 
+a {
+    color: rgb(46, 122, 204);
+}
+
 .productCard__single {
     align-items: start;
     margin: 2% 1% 0px 1%;
@@ -40,7 +44,7 @@
     z-index: 1;
 }
 
-.productCard__singleBoxAd{
+.productCard__singleBoxAd {
     min-width: 30%;
 }
 

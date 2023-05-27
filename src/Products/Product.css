@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     overflow-y: visible;
-    object-fit:fill;
+    object-fit: fill;
 }
 
 .product__singleImage {

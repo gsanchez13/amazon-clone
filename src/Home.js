@@ -23,6 +23,7 @@ function Home() {
           title3="Miracle-Gro Potting Mix, 8 qt. (2 Pack)"
           image4="https://m.media-amazon.com/images/I/71knReUJJCL._AC_SY879_.jpg"
           title4="Miracle-Gro Moisture Control Potting Mix, 1 cu. ft."
+          additionalLink=""
         />
         <ProductCard
           className="productCard__multiple"
@@ -35,6 +36,7 @@ function Home() {
           title3="GIVERARE Picnic Beach Blanket, XL Sandfree Waterproof Outdoor Camping Blanket, Quick Drying Oxford Family Mat, Portable Extra Large Picnic Mat for Travel, Hiking, Music Festival, Lawn"
           image4="https://m.media-amazon.com/images/I/51Ba1CpRjnL._AC_UX679_.jpg"
           title4="High Waist Baggy Cargo Jeans for Women Flap Pocket Relaxed Fit Straight Wide Leg Y2K Fashion Jeans"
+          additionalLink="View your browsing history"
         />
         <ProductCard
           className="productCard__multiple"
@@ -47,6 +49,7 @@ function Home() {
           title3="Amazon Basics Unscented Dog Poop Bags with Dispenser and Leash Clip, Standard 13 x 9 Inches, Black - 600 Bags (40 Rolls)Amazon Basics Unscented Dog Poop Bags with Dispenser and Leash Clip, Standard 13 x 9 Inches, Black - 600 Bags (40 Rolls)"
           image4="https://m.media-amazon.com/images/I/61zM4TT142L._AC_SY240_.jpg"
           title4="Method Gel Hand Soap Refill, Pink Grapefruit, Biodegradable Formula, 34 fl oz (Pack of 6)Method Gel Hand Soap Refill, Pink Grapefruit, Biodegradable Formula, 34 fl oz (Pack of 6)"
+          additionalLink="See More"
         />
         <div className="home__stackedRow">
           <StackedProduct
@@ -73,8 +76,8 @@ function Home() {
         <ProductCard
           category="Continue Watching"
           className="productCard__singleAd1"
-          title="The Boys"
-          image="https://m.media-amazon.com/images/I/81J3JEwri3L._RI_AC_SL1584_.jpg"
+          title="Violent Night"
+          image="https://m.media-amazon.com/images/M/MV5BYzg2NWNhOWItYjA3Yi00MzhhLTg4ZmItYzM3ZTIwN2U0ZGQ5XkEyXkFqcGdeQXVyMzEyMDQzNzY@._V1_FMjpg_UX1000_.jpg"
           price="379.99"
           rating={5}
         />
