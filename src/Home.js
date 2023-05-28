@@ -82,10 +82,10 @@ function Home() {
           rating={5}
         />
         <ProductCard
-          category="Continue Watching"
+          category="Top Deal"
           className="productCard__singleAd2"
-          title="The Boys"
-          image="https://m.media-amazon.com/images/I/81J3JEwri3L._RI_AC_SL1584_.jpg"
+          title="Samsung Tablets"
+          image="https://m.media-amazon.com/images/I/31l2D5XBh6L._AC_SY460_.jpg"
           price="379.99"
           rating={5}
         />

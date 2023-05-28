@@ -10,6 +10,7 @@
 
 a {
     color: rgb(46, 122, 204);
+    text-decoration: none;
 }
 
 .productCard__single {

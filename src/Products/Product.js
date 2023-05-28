@@ -16,10 +16,25 @@ function Product({ title, image, className }) {
             return (
                 <div className="product__single">
                     <Link to="/" className="product__link">
-                        <h3>Continue Watching: {title}</h3>
-                        <br/>
-                        <img src={image} alt={title} className="product__singleImage" />
+                        <h3>Continue Watching</h3>
+                        <br />
+                        <img src={image} alt={title} className="product__singleImageAd" />
                     </Link>
+                    <span>{title}</span>
+                    <a href="/" >See more from Prime</a>
+                </div>
+            )
+            break;
+        case "product__singleAd2":
+            return (
+                <div className="product__single">
+                    <Link to="/" className="product__link">
+                        <h3>Top Deal</h3>
+                        <br />
+                        <img src={image} alt={title} className="product__singleImageAd" />
+                    </Link>
+                    <span>{title}</span>
+                    <a href="/" >See more from Prime</a>
                 </div>
             )
             break;
