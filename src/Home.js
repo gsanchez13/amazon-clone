@@ -58,7 +58,7 @@ function Home() {
           />
           <StackedProduct
             className="stackedProduct_bottom"
-            image="https://www.amazon.com/dp/B089B6CPJS?aaxitk=4c7b17846ee5c76514c40e1ba40ab329&pd_rd_plhdr=t&ref=dacx_dp_586103675645598861_585113923207267201"
+            image="/stacked_product_bottom_img.png"
             price="15.99"
             rating={5}
           />
