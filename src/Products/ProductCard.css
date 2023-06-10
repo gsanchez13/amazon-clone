@@ -2,7 +2,8 @@
     align-items: start;
     margin: 2% 1% 0px 1%;
     padding: 1%;
-    min-height: 50%;
+    min-height: 40%;
+    max-height: 40%;
     width: 40% !important;
     background-color: white;
     z-index: 1;
