@@ -2,7 +2,7 @@ import React from 'react'
 import Product from './Product';
 import './ProductCard.css';
 
-function ProductCard({ category, className, image, title, image1, title1, image2, title2, image3, title3, image4, title4, additionalLink}) {
+function ProductCard({ category, className, image, title, image1, title1, image2, title2, image3, title3, image4, title4, additionalLink }) {
     switch (className) {
         case "productCard__single":
             return (
@@ -66,7 +66,7 @@ function ProductCard({ category, className, image, title, image1, title1, image2
                             title={title4}
                         />
                     </div>
-                    <br/>
+                    <br />
                     <a>{additionalLink}</a>
                 </div>
             )
