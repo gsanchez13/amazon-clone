@@ -7,3 +7,5 @@ import { createContext, useContext, useReducer } from "react";
 
 //this is the data layer
 export const StateContext = createContext();
+
+export const StateProvider = createProvider();
