@@ -5,7 +5,12 @@ import { createContext, useContext, useReducer } from "react";
 
 //Build provider and wrap app in entire provider
 
-//this is the data layer
+//BUILDS DATA LAYER
 export const StateContext = createContext();
 
-export const StateProvider = createProvider();
+//BUILDS PROVIDER
+export const StateProvider = ({ reducer, initalState, children },
+    < StateContext>
+        {children}
+    </StateContext >
+);
