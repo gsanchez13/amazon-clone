@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer } from "react";
+import React, { createContext, useContext, useReducer } from "react";
 
 //setting up data layer
 //for basket & user
@@ -10,7 +10,7 @@ export const StateContext = createContext();
 
 //BUILDS PROVIDER
 export const StateProvider = ({ reducer, initalState, children },
-    < StateContext>
+    < StateContext.Provider value={useReducer(reducer, initalState)}>
         {children}
-    </StateContext >
+    </StateContext.Provider>
 );
