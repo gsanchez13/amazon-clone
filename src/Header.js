@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MenuIcon from '@material-ui/icons/Menu';
+import {initalState} from './Products/reducer.js'
 
 function Header() {
   return (
@@ -42,7 +43,7 @@ function Header() {
             <div className="header__optionBasket">
               <ShoppingCartOutlinedIcon />
               <br/>
-              <span className="header__optionLineTwo header__basketCount">0</span>
+              <span className="header__optionLineTwo header__basketCount">{initalState.basket.length}</span>
             </div>
           </Link>
         </div>
