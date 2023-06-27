@@ -1,5 +1,10 @@
 export const initalState = {
-    basket: [],
+    basket: [
+        {
+            a: '',
+            b: '',
+        }
+    ],
 };
 
 function reducer(state, action) {
