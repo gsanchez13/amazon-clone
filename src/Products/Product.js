@@ -3,6 +3,9 @@ import './Product.css';
 import { Link } from 'react-router-dom';
 
 function Product({ title, image, className }) {
+    const addToBasket = () = > {
+        //logic for state change
+    }
     switch (className) {
         case "product__single":
             return (
