@@ -3,7 +3,7 @@ import './Product.css';
 import { Link } from 'react-router-dom';
 
 function Product({ title, image, className }) {
-    const addToBasket = () = > {
+    const addToBasket = () => {
         //logic for state change
     }
     switch (className) {
