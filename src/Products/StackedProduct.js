@@ -28,7 +28,7 @@ function StackedProduct({ className, image, title, rating }) {
                             ))
                     }
                 </div>
-                <button>Shop Now</button>
+                <button onclick={''} >Shop Now</button>
             </div>
         )
     }
