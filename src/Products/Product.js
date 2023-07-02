@@ -1,9 +1,17 @@
 import React from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom';
+import { useStateValue } from '../StateProvider';
 
 function Product({ title, image, className }) {
+    const [{basket}, dispatch] = useStateValue();
     const addToBasket = () => {
+        dispatch({
+            type: 'ADD_TO_BASKET',
+            item: {
+                title: title,
+            }
+        })
         //logic for state change
     }
     switch (className) {
