@@ -2,7 +2,7 @@ import React from 'react'
 import Product from './Product';
 import './ProductCard.css';
 
-function ProductCard({ category, className, image, title, image1, title1, image2, title2, image3, title3, image4, title4 }) {
+function ProductCard({ category, className, image, title, image1, title1, image2, title2, image3, title3, image4, title4, additionalLink }) {
     switch (className) {
         case "productCard__single":
             return (
@@ -16,12 +16,24 @@ function ProductCard({ category, className, image, title, image1, title1, image2
                     </div>
                 </div>
             )
-        case "productCard__singleAd":
+        case "productCard__singleAd1":
             return (
-                <div className="productCard__singleAd">
+                <div className="productCard__singleAd1">
                     <div className="productCard__singleBoxAd">
                         <Product
-                            className="product__singleAd"
+                            className="product__singleAd1"
+                            image={image}
+                            title={title}
+                        />
+                    </div>
+                </div>
+            )
+        case "productCard__singleAd2":
+            return (
+                <div className="productCard__singleAd2">
+                    <div className="productCard__singleBoxAd">
+                        <Product
+                            className="product__singleAd2"
                             image={image}
                             title={title}
                         />
@@ -54,6 +66,8 @@ function ProductCard({ category, className, image, title, image1, title1, image2
                             title={title4}
                         />
                     </div>
+                    <br />
+                    <a>{additionalLink}</a>
                 </div>
             )
         default:

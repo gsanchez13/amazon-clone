@@ -3,10 +3,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 1%;
-    margin: 2% 1% 0px 1%;
-    height: 35%;
-    width: 90%;
+    padding: 1% 1% 2% 3%;
+    margin: 4% 1% 0px 1%;
+    height: 30%;
+    width: 95%;
     background-color: white;
     z-index: 1;
 }
@@ -15,11 +15,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 2% 1% 0px 1%;
-    padding: 1%;
-    height: 60%;
-    width: 90%;
+    margin: 8% 1% 0% 1%;
+    padding: 1% 10% -1% -1%;
+    height: 80%;
+    width: 95%;
     background-color: white;
     z-index: 1;
 }
@@ -36,9 +35,7 @@
 }
 
 .stackedProduct__imgBottom {
-    height: 50%;
-    max-width: 100px;
-    object-fit: contain;
+    width: 100%;
     margin-bottom: 5px;
 }
 
@@ -55,7 +52,7 @@
 
 .stackedProduct__rating {
     display: flex;
-    align-self: baseline;
+    align-self: center;
 }
 
 button {
@@ -63,7 +60,6 @@ button {
     border: 1px solid;
     border-color: rgb(256, 153, 0);
     border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 2% 3% 2% 3%;
     font-size: smaller !important;
 }

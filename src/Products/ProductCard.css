@@ -2,10 +2,16 @@
     align-items: start;
     margin: 2% 1% 0px 1%;
     padding: 1%;
-    min-height: 50%;
+    min-height: 35%;
+    max-height: 35%;
     width: 40% !important;
     background-color: white;
     z-index: 1;
+}
+
+a {
+    color: rgb(46, 122, 204);
+    text-decoration: none;
 }
 
 .productCard__single {
@@ -13,7 +19,7 @@
     margin: 2% 1% 0px 1%;
     padding: 1%;
     min-height: 30% !important;
-    width: 56.5%;
+    width: 50%;
     background-color: white;
     z-index: 1;
 }
@@ -22,16 +28,25 @@
     max-width: 60%;
 }
 
-.productCard__singleAd {
-    margin: 2% 1% 0px 1%;
+.productCard__singleAd1 {
+    margin: 2% .4% 0px 1%;
     padding: 1%;
     min-height: 30% !important;
-    width: 25% !important;
+    width: 24% !important;
     background-color: white;
     z-index: 1;
 }
 
-.productCard__singleBoxAd{
+.productCard__singleAd2 {
+    margin: 2% 1% 0px 1%;
+    padding: 1%;
+    min-height: 30% !important;
+    width: 20.5% !important;
+    background-color: white;
+    z-index: 1;
+}
+
+.productCard__singleBoxAd {
     min-width: 30%;
 }
 
