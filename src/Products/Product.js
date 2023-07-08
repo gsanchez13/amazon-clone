@@ -9,7 +9,10 @@ function Product({ title, image, className }) {
         dispatch({
             type: 'ADD_TO_BASKET',
             item: {
+                //create id's per item
                 title: title,
+                image: '',
+                price: '',
             }
         })
         //logic for state change
