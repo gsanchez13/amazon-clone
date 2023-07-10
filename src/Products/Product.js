@@ -13,6 +13,7 @@ function Product({ title, image, className }) {
                 title: title,
                 image: '',
                 price: '',
+                rating: '',
             }
         })
         //logic for state change
