@@ -1,0 +1,1 @@
+//individual page for product that allows add to cart state change functionality
