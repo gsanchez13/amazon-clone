@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MenuIcon from '@material-ui/icons/Menu';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../StateProvider';
 
 function Header() {
   const [{ basket }] = useStateValue();
