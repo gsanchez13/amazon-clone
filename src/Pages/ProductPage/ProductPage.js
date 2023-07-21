@@ -3,8 +3,8 @@ import React from 'react';
 
 function ProductPage() {
     return (
-        <div>
-            
+        <div className="productPage__item">
+            <img src="" alt="info" />
         </div>
     )
 }
