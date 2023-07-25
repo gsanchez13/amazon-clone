@@ -25,10 +25,10 @@ function App() {
           <Route
             path="/"
             element={
-            <>
-            <Header />
-            <Home/>
-            </>}>
+              <>
+                <Header />
+                <Home />
+              </>}>
           </Route>
         </Routes>
       </div>

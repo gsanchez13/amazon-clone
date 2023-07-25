@@ -5,6 +5,7 @@ function ProductPage() {
     return (
         <div className="productPage__item">
             <img src="" alt="info" />
+            <h3>Caption</h3>
         </div>
     )
 }
