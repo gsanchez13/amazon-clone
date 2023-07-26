@@ -23,6 +23,10 @@ function App() {
             element={<h1>Login Page</h1>}>
           </Route>
           <Route
+            path="/product/"
+            element={<h1>Product Page</h1>}>
+          </Route>
+          <Route
             path="/"
             element={
               <>
