@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import ProductCard from './Products/ProductCard';
-import StackedProduct from './Products/StackedProduct';
+import ProductCard from './ProductCard';
+import StackedProduct from './StackedProduct';
 
 function Home() {
   return (
