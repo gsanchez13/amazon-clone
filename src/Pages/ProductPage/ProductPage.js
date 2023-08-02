@@ -11,6 +11,9 @@ function ProductPage(className = 'productCard__single') {
             className="product__single"
             image=""
             title=""/>
+            //reviews
+            //reccomendations
+            //add to cart state change
         </div>
     )
 }
