@@ -4,6 +4,7 @@ import Header from './Header/Header.js';
 import Home from './Pages/HomePage/Home.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '@aws-amplify/ui-react/styles.css';
+import ProductPage from './Pages/ProductPage/ProductPage';
 
 function App() {
   return (
@@ -23,8 +24,10 @@ function App() {
             element={<h1>Login Page</h1>}>
           </Route>
           <Route
-            path="/product/"
-            element={<h1>Product Page</h1>}>
+            path="/product/:id"
+            element={<div>
+              <ProductPage />
+            </div>}>
           </Route>
           <Route
             path="/"
