@@ -10,7 +10,8 @@ function ProductPage(className = 'productCard__single') {
             <Product 
             className="product__single"
             image=""
-            title=""/>
+            title=""
+            id=""/>
             //reviews
             //reccomendations
             //add to cart state
