@@ -2,16 +2,23 @@
 import React from 'react';
 import Product from '../HomePage/ProductCard';
 
-function ProductPage(className = 'productCard__single') {
+function ProductPage(className = 'productCard__single', id, title) {
+    //do a db call using id to obtain info to fill in for variables for this component. then, use variables from call to fill in page template
     return (
         <div className="productPage__item">
             <img src="" alt="info" />
-            <h3>Caption</h3>
+            <h3>{title}</h3>
             <Product 
             className="product__single"
             image=""
             title=""
-            id=""/>
+            id={id}/>
+            <div className='productPage__reviewBox'>
+                <img src="" alt=""/>
+                <text>
+                    some text reviewing product here
+                </text>
+            </div>
             //reviews
             //reccomendations
             //add to cart state
