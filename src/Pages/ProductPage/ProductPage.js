@@ -11,7 +11,7 @@ function ProductPage(className = 'productCard__single', id, title) {
             <Product 
             className="product__single"
             image=""
-            title=""
+            title={title}
             id={id}/>
             <div className='productPage__reviewBox'>
                 <img src="" alt=""/>
