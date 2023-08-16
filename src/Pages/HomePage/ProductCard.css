@@ -19,7 +19,7 @@ a {
     margin: 2% 1% 0px 1%;
     padding: 1%;
     min-height: 30% !important;
-    width: 50%;
+    width: 48%;
     background-color: white;
     z-index: 1;
 }
@@ -32,16 +32,16 @@ a {
     margin: 2% .4% 0px 1%;
     padding: 1%;
     min-height: 30% !important;
-    width: 24% !important;
+    width: 23% !important;
     background-color: white;
     z-index: 1;
 }
 
 .productCard__singleAd2 {
-    margin: 2% 1% 0px 1%;
+    margin: 2% 1% 0% 1%;
     padding: 1%;
     min-height: 30% !important;
-    width: 20.5% !important;
+    width: 23% !important;
     background-color: white;
     z-index: 1;
 }

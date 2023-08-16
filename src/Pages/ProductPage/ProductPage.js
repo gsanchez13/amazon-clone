@@ -16,7 +16,7 @@ function ProductPage(className = 'productCard__single', id, title) {
             <div className='productPage__reviewBox'>
                 <img src="" alt=""/>
                 <text>
-                    some text reviewing product here
+                    //fetch product info from backend
                 </text>
             </div>
             //reviews
