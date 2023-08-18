@@ -1,7 +1,7 @@
 //individual page for product that allows add to cart state change functionality
 import React from 'react';
 import Product from '../HomePage/ProductCard';
-
+import './ProductPage.css';
 function ProductPage(className = 'productCard__single', id, title) {
     //do a db call using id to obtain info to fill in for variables for this component. then, use variables from call to fill in page template
     return (
