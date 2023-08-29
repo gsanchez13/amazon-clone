@@ -3,7 +3,7 @@ import React from 'react';
 import Product from '../HomePage/ProductCard';
 import './ProductPage.css';
 
-function ProductPage(className = 'productCard__single', id, title, description) {
+function ProductPage(className = 'productCard__single', id, title, description, reviews) {
     //do a db call using id to obtain info to fill in for variables for this component. then, use variables from call to fill in page template
     return (
         <div className="productPage__item">
@@ -20,6 +20,11 @@ function ProductPage(className = 'productCard__single', id, title, description) 
                     {description}
                 </text>
             </div>
+            <ul>
+                <li>
+                    {reviews}
+                </li>
+            </ul>
             //reviews in loop with count limit
             //reccomendations
             //add to cart state
