@@ -2,6 +2,7 @@
 import React from 'react';
 import Product from '../HomePage/ProductCard';
 import './ProductPage.css';
+import reducer from '../reducer';
 
 function ProductPage(className = 'productCard__single', id, title, description, reviews) {
     return (
@@ -26,7 +27,9 @@ function ProductPage(className = 'productCard__single', id, title, description, 
             </ul>
             //reviews in loop with count limit
             //reccomendations
-            //add to cart state
+            <button onClick={reducer}>
+            //add to cart state - reducer should add item to state
+            </button>
         </div>
     )
 }
