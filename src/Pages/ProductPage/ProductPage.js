@@ -27,7 +27,7 @@ function ProductPage(className = 'productCard__single', id, title, description, 
             </ul>
             //reviews in loop with count limit
             //reccomendations
-            <button onClick={reducer}>
+            <button onClick={reducer("ADD_TO_BASKET")}>
             //add to cart state - reducer should add item to state
             </button>
         </div>
