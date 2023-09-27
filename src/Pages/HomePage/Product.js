@@ -22,7 +22,8 @@ function Product({ title, image, className }) {
         case "product__single":
             return (
                 <div className="product__single">
-                    <Link to="/" className="product__link">
+                    <Link to={`/productPage/${productId}`}
+                    className="product__link">
                         <img src={image} alt={title} className="product__singleImage" />
                     </Link>
                 </div>
