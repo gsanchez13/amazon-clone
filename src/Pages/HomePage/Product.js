@@ -3,7 +3,7 @@ import './Product.css';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 
-function Product({ title, image, className }) {
+function Product({ title, image, className, productId = 1234 }) {
     const [{basket}, dispatch] = useStateValue();
     const addToBasket = () => {
         dispatch({
